@@ -1,0 +1,17 @@
+{
+  "name": "typescript-composite-lerna-foo",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -b ./tsconfig.package.json",
+    "prepublish": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
