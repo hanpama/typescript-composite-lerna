@@ -10,9 +10,9 @@
     "update:package.json": "ts-node scripts/update-package-json.ts"
   },
   "devDependencies": {
-    "@types/node": "^10.12.12",
-    "lerna": "^3.4.3",
-    "typescript": "^3.1.6",
-    "ts-node": "^7.0.1"
+    "@types/node": "^12.7.0",
+    "lerna": "^3.16.4",
+    "typescript": "^3.5.3",
+    "ts-node": "^8.3.0"
   }
 }

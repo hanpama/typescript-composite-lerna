@@ -64,3 +64,8 @@ To integrate those building process into project, we need `references` field lis
 
 `update:tsconfig.json` is a script which resolves and updates those dependencies.
 
+## Running Example
+
+```sh
+ts-node packages/baz/src/index.ts
+```
